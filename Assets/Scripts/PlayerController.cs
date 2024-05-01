@@ -23,7 +23,7 @@ public class PlayerController : MonoBehaviour
     private void FixedUpdate()
     {
         // Movement
-        rb.velocity = direction * speed;
+        rb.velocity = direction * speed
     }     
     
     // Direction And Spirte Orientation Control
