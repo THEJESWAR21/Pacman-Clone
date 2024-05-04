@@ -5,7 +5,6 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float speed = 5f; // Speed of Pacman
-
     private Rigidbody2D rb;
     private Vector2 direction = Vector2.zero;
 
@@ -23,7 +22,7 @@ public class PlayerController : MonoBehaviour
     private void FixedUpdate()
     {
         // Movement
-        rb.velocity = direction * speed
+        rb.velocity = direction * speed;
     }     
     
     // Direction And Spirte Orientation Control
