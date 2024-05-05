@@ -12,7 +12,7 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
     }
-
+    
     private void Update(){
 
      HandleInput();
