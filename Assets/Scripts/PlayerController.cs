@@ -18,13 +18,12 @@ public class PlayerController : MonoBehaviour
      HandleInput();
     }
 
-   
     private void FixedUpdate()
     {
         // Movement
         rb.velocity = direction * speed;
     }     
-    
+
     // Direction And Spirte Orientation Control
      private void HandleInput(){
 
